@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Tapo camera",
+        "description": "Configure a Tapo camera to control privacy mode.",
+        "data": {
+          "host": "Host",
+          "port": "Control port",
+          "update_interval": "Update interval (seconds)",
+          "username": "Username",
+          "password": "Password",
+          "cloud_password": "Cloud password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the camera.",
+      "invalid_auth": "Authentication failed.",
+      "missing_auth": "Provide either a cloud password or a username/password pair.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure Tapo Trigger",
+        "description": "Adjust the polling interval for privacy state updates.",
+        "data": {
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the camera.",
+      "invalid_auth": "Authentication failed.",
+      "missing_auth": "Provide either a cloud password or a username/password pair.",
+      "unknown": "Unexpected error."
+    }
+  }
+}

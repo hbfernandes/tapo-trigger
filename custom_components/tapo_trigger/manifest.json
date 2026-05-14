@@ -1,0 +1,19 @@
+{
+  "domain": "tapo_trigger",
+  "name": "Tapo Trigger",
+  "documentation": "https://github.com/hbfernandes/tapo-trigger",
+  "issue_tracker": "https://github.com/hbfernandes/tapo-trigger/issues",
+  "codeowners": [
+    "@hbfernandes"
+  ],
+  "version": "0.1.0",
+  "requirements": [
+    "pytapo==3.4.13"
+  ],
+  "config_flow": true,
+  "homeassistant": "2026.5.1",
+  "iot_class": "local_polling",
+  "loggers": [
+    "custom_components.tapo_trigger"
+  ]
+}
